@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server.js" ,  // agar root me hai
+  // OR
+    "start": "node src/server.js" // agar src ke andar hai
     "dev": "nodemon src/server.js",
     "seed-admin": "node src/seeds/seed_admin.js"
   },
