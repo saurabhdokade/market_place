@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js" ,  // agar root me hai
   // OR
-    "start": "node src/server.js" // agar src ke andar hai
+    "start": "node src/server.js" ,// agar src ke andar hai
     "dev": "nodemon src/server.js",
     "seed-admin": "node src/seeds/seed_admin.js"
   },
